@@ -1,18 +1,18 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-carpentry: "lc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
+carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "The Ethiopian Research and Education Network"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Addis Ababa Institute of Technology, King George VI St, Addis Ababa - Exact venue to be confirmed"     # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Hawassa University - Exact venue to be confirmed"     # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "et"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "9.03403,38.76620"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "Group I: 29 Jan - 31 Jan, 2018 <br /> Group II: 31 Jan- 02 Feb, 2018"   # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+latlng: "7.057240, 38.498969"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+humandate: "Group I: March, 2018 <br /> Group II: March, 2018"   # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 5:00 pm "    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2018-01-29     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2018-02-02       # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Kayleigh Lino", "Mesfin Diro", "Yosef Abate"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: [ "Bonny Adane","Dagim Yoseph","Behailu Korma"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+startdate: 2018-03-##     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2018-03-##       # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Mesfin Diro", "Dr. Margareth Gfrerer"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: [ "Dagim Yoseph","Behailu Korma"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: ["carpentry.ethiopia@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:     http://pad.software-carpentry.org/2018-01-29-Ethiopia      # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -273,7 +273,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <p>
   <strong>Requirements:</strong>
-Library Carpentry's teaching is hands-on, so participants are encouraged to bring in and use their own laptops to insure the proper setup of tools for an efficient workflow once you leave the workshop.  (We will provide instructions on setting up the required software several days in advance)
+Data Carpentry's teaching is hands-on, so participants are encouraged to bring in and use their own laptops to insure the proper setup of tools for an efficient workflow once you leave the workshop.  (We will provide instructions on setting up the required software several days in advance)
 <em> There are no pre-requisites, and we will assume no prior knowledge about the tools.</em> 
 </p>
 
@@ -281,7 +281,7 @@ Library Carpentry's teaching is hands-on, so participants are encouraged to brin
 
 <h2> Software Setup</h2>
 
-<p> To participate in a Library Carpentry workshop, you will need working copies of the software described below. Please 
+<p> To participate in a Data Carpentry workshop, you will need working copies of the software described below. Please 
 make sure to install everything and try opening it to make sure it works <em>before</em> the start of your workshop. If 
 you run into any problems, please feel free to email the instructor or arrive early to your workshop on the first day.
 
@@ -374,146 +374,8 @@ If you need a spreadsheet program, there are a few other options, like OpenOffic
 
 
 
-<div id="git">  Start of 'Git' section. GitHub browser compatability
-           is given at https://help.github.com/articles/supported-browsers/-->
- 
- <h3>Git</h3>
-  <p>
-    Git is a version control system that lets you track who made changes
-    to what when and has options for easily updating a shared or public
-    version of your code
-    on <a href="https://github.com/">github.com</a>. You will need a
-    <a href="https://help.github.com/articles/supported-browsers/">supported</a>
-    web browser (current versions of Chrome, Firefox or Safari,
-    or Internet Explorer version 9 or above).
-  </p>
-  <p>
-    You will need an account at <a href="https://github.com/">github.com</a>
-    for parts of the Git lesson. Basic GitHub accounts are free. We encourage
-    you to create a GitHub account if you don't have one already.
-    Please consider what personal information you'd like to reveal. For
-    example, you may want to review these
-    <a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
-    for keeping your email address private</a> provided at GitHub.
-  </p>
 
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="git-windows">Windows</h4>
-      <p>
-        We're going to be using GitHub Desktop to work with Git in this workshop. 
-        <a href="https://central.github.com/deployments/desktop/desktop/latest/win32 ">Download GitHub Desktop</a>
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="git-macosx">Mac OS X</h4>
-      <p>
-        We're going to be using GitHub Desktop to work with Git in this workshop. 
-        <a href="https://central.github.com/deployments/desktop/desktop/latest/darwin ">Download GitHub Desktop</a>
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="git-linux">Linux</h4>
-      <p>
-        We're going to be using GitHub Desktop to work with Git in this workshop. 
-        Unfortunatly Linux support for for GitHub Desktop desktop is still in development.
-        This unofficial release seems to be working for most people
-        <a href="https://github.com/gengjiawen/desktop/releases ">Download GitHub Desktop</a>
-      </p>
-    </div>
-  </div>
 
-<!-- End of 'Git' section. -->
-
-<div id="shell"> <!-- Start of 'shell' section. -->
-  <h3>The Bash Shell</h3>
-
-  <p>
-    Bash is a commonly-used shell that gives you the power to do simple
-    tasks more quickly.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="shell-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
-      <ol>
-        <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
-        <li>Run the installer and follow the steps bellow:
-          <ol>
-            <!-- Git 2.8.2 Setup -->
-            <!-- Information -->
-            <li>Click on "Next".</li>
-            <!-- Select Components -->
-            <li>Click on "Next".</li>
-            <!-- Adjusting your PATH environment -->
-            <li>
-              <strong>
-                Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
-              </strong>
-                If you forgot to do this programs that you need for the workshop will not work properly.
-                If this happens rerun the installer and select the appropriate option.
-            </li>
-            <!-- Choosing the SSH executable -->
-            <li>Click on "Next".</li>
-            <!-- Configuring the line ending conversions -->
-            <li>
-              <strong>
-                Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
-              </strong>
-            </li>
-            <!-- Configuring the terminal emulator to use with Git Bash -->
-            <li>
-              <strong>
-                Keep "Use Windows' default console window" selected and click on "Next".
-              </strong>
-            </li>
-            <!-- Configuring experimental performance tweaks -->
-            <li>Click on "Install".</li>
-            <!-- Installing -->
-            <!-- Completing the Git Setup Wizard -->
-            <li>Click on "Finish".</li>
-          </ol>
-        </li>
-        <li>
-          If your "HOME" environment variable is not set (or you don't know what this is):
-          <ol>
-            <li>Open command prompt (Open Start Menu then type <code>cmd</code> and press [Enter])</li>
-            <li>
-              Type the following line into the command prompt window exactly as shown:
-              <p><code>setx HOME "%USERPROFILE%"</code></p>
-            </li>
-            <li>Press [Enter], you should see <code>SUCCESS: Specified value was saved.</code></li>
-            <li>Quit command prompt by typing <code>exit</code> then pressing [Enter]</li>
-          </ol>
-        </li>
-      </ol>
-      <p>This will provide you with both Git and Bash in the Git Bash program.</p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="shell-macosx">Mac OS X</h4>
-      <p>
-        The default shell in all versions of Mac OS X is Bash, so no
-        need to install anything.  You access Bash from the Terminal
-        (found in
-        <code>/Applications/Utilities</code>).
-        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
-        for an example on how to open the Terminal.
-        You may want to keep
-        Terminal in your dock for this workshop.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="shell-linux">Linux</h4>
-      <p>
-        The default shell is usually Bash, but if your
-        machine is set up differently you can run it by opening a
-        terminal and typing <code>bash</code>.  There is no need to
-        install anything.
-      </p>
-    </div>
-  </div>
-</div> <!-- End of 'shell' section. -->
 </div> 
 <!--
   Uncomment this section if you are using our virtual machine.
