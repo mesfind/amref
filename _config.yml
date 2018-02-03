@@ -3,10 +3,10 @@
 #------------------------------------------------------------
 
 # Which carpentry is this ("swc", "dc", or "lc")?
-carpentry: "swc"
+carpentry: "sdc"
 
 # Overall title for pages.
-title: "Workshop Title"
+title: "Increase Researchers Digital Literacy"
 
 # Contact email address.
 email:  carpentry.ethiopia@gmail.com 
